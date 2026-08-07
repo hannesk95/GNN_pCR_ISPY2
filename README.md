@@ -11,7 +11,7 @@
 <sup>7</sup> Munich Center for Machine Learning |
 <sup>\*</sup> Shared Senior Authorship 
 
-Accepted at [MICCAI 2026 - Workshop on GRaphs in biomedicAl Image anaLysis (GRAIL)](https://grail-miccai.github.io/)
+[Paper](https://arxiv.org/pdf/2607.04912) | [MICCAI GRAIL](https://grail-miccai.github.io/)
 
 <p align="center">
   <img src="./figures/method.png" width="900"/>
