@@ -23,4 +23,4 @@ Experiments across a cohort of 585 patients from the public ISPY-2 dataset demon
 
 **Keywords:** GNNs · Longitudinal · Self-Supervised · Breast Cancer
 
-Source Code will be released upon publiction.
+Source code will be released upon publiction.
