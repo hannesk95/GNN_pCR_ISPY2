@@ -30,7 +30,7 @@ Experiments across a cohort of 585 patients from the public ISPY-2 dataset demon
 $ pip install ISPY2-pCR-dataset
 ```
 
-#### Create Python script
+#### Create Python script (e.g. ispy2_pcr_dataset.py)
 ```python
 from ISPY2_pCR_dataset import download_and_preprocess
 
