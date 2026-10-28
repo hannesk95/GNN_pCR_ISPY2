@@ -23,4 +23,52 @@ Experiments across a cohort of 585 patients from the public ISPY-2 dataset demon
 
 **Keywords:** GNNs · Longitudinal · Self-Supervised · Breast Cancer
 
-Source code will be released upon publiction.
+## Dataset
+
+#### Install Python PyPI Package
+```bash
+$ pip install ISPY2-pCR-dataset
+```
+
+#### Create Python script
+```python
+from ISPY2_pCR_dataset import download_and_preprocess
+
+if __name__ == "__main__":
+
+    download_dir = "/path/to/output/directory"
+    manifest_file_path = "/path/to/manifest_xlsx/file" # can be found at https://github.com/hannesk95/ISPY2-pCR-dataset/tree/main/data
+    clinical_file_path = "/path/to/clinical_xlsx/file" # can be found at https://github.com/hannesk95/ISPY2-pCR-dataset/tree/main/data
+
+    download_and_preprocess(
+        download_dir=download_dir,
+        manifest_file_path=manifest_file_path,
+        clinical_file_path=clinical_file_path
+        )
+```
+
+#### Start a tmux session and run the Python script. This will take a while!
+
+```bash
+$ tmux
+$ python ispy2_pcr_dataset.py
+```
+
+#### Once the script has finished, you'll find the final dataset at
+```bash
+$ cd download_dir/processed_data
+```
+
+## Citation
+
+```bibtex
+@article{kiechle2026graph,
+title={Graph Representation Learning of Longitudinal Medical Imaging Trajectories for Treatment Response Prediction},
+author={Kiechle, Johannes and Osuala, Richard and Lang, Daniel M and Fischer, Stefan M and Jan{\'\i}{\v{c}}kov{\'a}, Ivana and Lekadir, Karim and Schnabel, Julia A and Peeken, Jan C},
+journal={arXiv preprint arXiv:2607.04912},
+year={2026}
+}
+```
+
+**[INFO] Full source code will be released upon publiction.**
+
